@@ -1,11 +1,11 @@
 import React from 'react'
 import './header.css'
+import navbar from './navbar'
 
 const Header = () => {
   return (
-    <div>
-      
-    </div>
+  < navbar/>  
+  
   )
 }
 

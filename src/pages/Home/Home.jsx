@@ -1,9 +1,13 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
-
+import signUp from '../login/signUp'
+import Login from '../login/Login'
+import navbar from '../../components/header/navbar'
+import Header from '../../components/header/Header'
 const Home = () => {
   return (
     <div>
-    <h1>Home Page</h1>
+<Header/>
     </div>
   )
 }

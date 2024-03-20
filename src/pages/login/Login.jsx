@@ -1,7 +1,8 @@
 import React from 'react'
 import './login.css'
 import { Link } from 'react-router-dom'
-const UserLogin = () => {
+import signUp from './signUp'
+const Login = () => {
   return (
     <div>
        <div class="box">
@@ -23,7 +24,7 @@ const UserLogin = () => {
 
             <div class="links">
                 <a href="#">Forgot Password</a>
-              <Link element={<signUp/>}>Sign Up</Link>
+              <Link path="./signUp"  element={<signUp/>}>Sign Up</Link>
             </div>
             <input type="submit" value="login"/>
         </form>
@@ -32,4 +33,4 @@ const UserLogin = () => {
   )
 }
 
-export default UserLogin
+export default Login
